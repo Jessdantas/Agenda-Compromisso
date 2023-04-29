@@ -1,0 +1,31 @@
+<h1>Editar agendamento: {{task.title}}</h1>
+
+<form action="/tasks/edit" method="POST">
+
+  <input type="hidden" name="id" value={{task.id}}>
+
+  <div class="form-control">
+    <label for="title">Título:</label>
+    <input type="text" name="title" placeholder="O que você vai fazer?" value="{{task.title}}">
+  </div>
+
+  <div class="form-control">
+    <label for="data_inicio">Data Inicial:</label>
+    <input type="date" name="data_inicio" placeholder="Digite a data" value="{{task.data_inicio}}">
+    <label for="hora_inicio">Hora Inicial:</label>
+    <input type="time" name="hora_inicio" placeholder="Digite a hora" value="{{task.hora_inicio}}">
+  </div>
+
+  <div class="form-control">
+    <label for="data_fim">Data Final:</label>
+    <input type="date" name="data_fim" placeholder="Digite a data" value="{{task.data_fim}}">
+    <label for="hora_fim">Hora Final:</label>
+    <input type="time" name="hora_fim" placeholder="Digite a hora" value="{{task.hora_fim}}">
+  </div>
+
+  <div class="form-control">
+    <label for="description">Descrição:</label>
+    <textarea type="text" name="description" placeholder="O que você vai fazer?">{{task.description}}</textarea>
+  </div>
+  <input type="submit" value="Editar">
+</form>
