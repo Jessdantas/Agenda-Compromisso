@@ -2,6 +2,8 @@ Agendamento de Tarefas!
 
 Este é um projeto de um sistema de gerenciamento de tarefas desenvolvido em Node.js com o framework Express e o ORM Sequelize para o banco de dados.
 
+
+
 Funcionamento
 
 O sistema permite o cadastro, edição e exclusão de tarefas, bem como a listagem de todas as tarefas cadastradas.
@@ -20,14 +22,24 @@ Execute o comando npm start para iniciar o servidor.
 
 Acesse o sistema no seu navegador pelo endereço http://localhost:3000/tasks.
 
+
+
 Estrutura do Projeto
 
 db/: Contém o arquivo de configuração do banco de dados e a definição dos modelos do Sequelize.
+
 public/: Contém os arquivos estáticos do sistema, como CSS e imagens.
+
 routes/: Contém os arquivos com as rotas do sistema.
+
 views/: Contém os arquivos HTML com as views do sistema.
+
 app.js: Arquivo principal do sistema, onde são configurados o Express e as rotas.
+
 package.json: Arquivo com as informações do projeto e as dependências utilizadas.
+
+
+
 
 Dependências
 
