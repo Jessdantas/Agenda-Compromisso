@@ -47,5 +47,9 @@ Express
 Express Handlebars
 Sequelize
 MySQL2
+
+
 Créditos
-Desenvolvido por [seu nome ou empresa].
+Desenvolvido por Jessica Dantas.
+
+Espero que tenham gostado!
