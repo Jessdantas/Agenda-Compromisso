@@ -1,4 +1,4 @@
-Agendamento de Tarfas!
+Agendamento de Tarefas!
 
 Este é um projeto de um sistema de gerenciamento de tarefas desenvolvido em Node.js com o framework Express e o ORM Sequelize para o banco de dados.
 
