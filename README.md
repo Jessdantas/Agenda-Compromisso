@@ -1,4 +1,4 @@
-README - Sistema de Gerenciamento de Tarefas
+Agendamento de Tarfas!
 
 Este é um projeto de um sistema de gerenciamento de tarefas desenvolvido em Node.js com o framework Express e o ORM Sequelize para o banco de dados.
 
