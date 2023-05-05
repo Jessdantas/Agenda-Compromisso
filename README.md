@@ -49,7 +49,5 @@ Sequelize
 MySQL2
 
 
-Créditos
-Desenvolvido por Jessica Dantas.
 
 Espero que tenham gostado!
